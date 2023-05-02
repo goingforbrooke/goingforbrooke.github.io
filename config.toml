@@ -4,10 +4,6 @@ base_url = "https://www.goingforbrooke.com"
 # The default language; used in feeds.
 default_language = "en"
 
-# The site theme to use.
-#theme = "particle-zola"
-
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
