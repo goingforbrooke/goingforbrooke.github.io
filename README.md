@@ -57,3 +57,7 @@ $ mv devicon.ttf static/fonts/devicon.ttf
 If `zola serve` is active, then Zola will detect the changes and generate a new site.
 
 Commit the changes to VCS.
+
+### Changelog
+
+23-5-29 switching from [devicons](https://devicon.dev) to [material design icons](https://pictogrammers.com/library/mdi/) because devicons doesn't have Mastodon. Meanwhile, [Fontawesome](https://fontawesome.com/icons) seems to have gone the corpo route and only 2,020 of their icons are free.
