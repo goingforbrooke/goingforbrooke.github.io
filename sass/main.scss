@@ -7,6 +7,7 @@
 @import 'footer';
 
 @import "lib/normalize";
-@import "./lib/fontawesome/fontawesome.scss";
-@import "./lib/fontawesome/brands.scss";
+@import "lib/fontawesome/fontawesome";
+@import "lib/fontawesome/brands";
+@import "lib/fontawesome/solid";
 @import "lib/devicon";
