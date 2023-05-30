@@ -58,6 +58,7 @@ If `zola serve` is active, then Zola will detect the changes and generate a new 
 
 Commit the changes to VCS.
 
-### Changelog
+### Update Fontawesome Icons
 
-23-5-29 switching from [devicons](https://devicon.dev) to [material design icons](https://pictogrammers.com/library/mdi/) because devicons doesn't have Mastodon. Meanwhile, [Fontawesome](https://fontawesome.com/icons) seems to have gone the corpo route and only 2,020 of their icons are free.
+1. Download the [latest icon pack](https://fontawesome.com/download).
+2. Add to project and follow Font Awesome's [integration instructions](https://fontawesome.com/docs/web/use-with/scss).
