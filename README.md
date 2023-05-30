@@ -62,3 +62,7 @@ Commit the changes to VCS.
 
 1. Download the [latest icon pack](https://fontawesome.com/download).
 2. Add to project and follow Font Awesome's [integration instructions](https://fontawesome.com/docs/web/use-with/scss).
+
+### Add Verified Link to Mastodon
+
+https://docs.joinmastodon.org/user/profile/#verification
