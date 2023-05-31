@@ -66,3 +66,7 @@ Commit the changes to VCS.
 ### Add Verified Link to Mastodon
 
 https://docs.joinmastodon.org/user/profile/#verification
+
+### Check Favicon Status
+
+https://realfavicongenerator.net/favicon_checker?protocol=http&site=www.goingforbrooke.com
