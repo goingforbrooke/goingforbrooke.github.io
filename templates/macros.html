@@ -1,10 +1,11 @@
 
 {% macro head() %}
 <head>
+  <!-- Notify browser RSS/Atom feed detectors (such as Firefox's Livemarks) that the blog feed is available https://addons.mozilla.org/en-US/firefox/addon/livemarks/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search. -->
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="personal_blog/atom.xml", trailing_slash=false) }}">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
   <link rel="icon" type="image/x-icon" href="{{ config.base_url ~ "/img/favicon.ico" }}">
   <meta name="description" content="{% if page.description %}{{ page.description | striptags | trim | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
