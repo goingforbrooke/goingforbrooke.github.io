@@ -63,6 +63,18 @@ Commit the changes to VCS.
 1. Download the [latest icon pack](https://fontawesome.com/download).
 2. Add to project and follow Font Awesome's [integration instructions](https://fontawesome.com/docs/web/use-with/scss).
 
+Copy `scss/` into `sass/lib/fontawesome/`. Use `y` on any file overwrite prompts.
+
+```console
+cp -r ~/downloads/fontawesome-free-6.5.2-web/scss/* sass/lib/fontawesome/
+```
+
+Copy `webfonts/` into `static/`.
+
+```console
+cp -r ~/downloads/fontawesome-free-6.5.2-web/webfonts/* static/fonts/
+```
+
 ### Add Verified Link to Mastodon
 
 https://docs.joinmastodon.org/user/profile/#verification
