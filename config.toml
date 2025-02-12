@@ -22,8 +22,8 @@ highlight_code = true
 # Put all your custom variables here
 
 # User settings
-username = "Brooke Deuson"
-user_title = "@goingforbrooke"
+username = "@goingforbrooke"
+user_title = "Rust Engineer"
 user_description = "Developer"
 email = "going4brooke@gmail.com"
 twitter_username = "goingforbrooke"
