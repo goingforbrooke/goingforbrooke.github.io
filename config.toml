@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.goingforbrooke.com"
+base_url = "https://goingforbrooke.com"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -9,6 +9,9 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+
+title = "goingforbrooke.com"
+description = "@goingforbrooke's personal site"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -25,3 +28,7 @@ user_description = "Developer"
 email = "going4brooke@gmail.com"
 twitter_username = "goingforbrooke"
 github_username = "goingforbrooke"
+
+social_media_banner_path = "img/g4b_social_media_banner.png"
+twitter_owner_handle = "@goingforbrooke"
+twitter_creator_handle = "@goingforbrooke"
